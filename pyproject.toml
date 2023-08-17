@@ -10,7 +10,8 @@ packages = [{include = "src"}]
 python = "^3.11"
 selenium = "^4.11.2"
 flake8 = "^6.1.0"
-python-dotenv = "^1.0.0"
+pydantic = "^2.1.1"
+pydantic-settings = "^2.0.3"
 
 [tool.poetry.group.dev.dependencies]
 isort = "^5.12.0"
