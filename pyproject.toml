@@ -9,7 +9,6 @@ packages = [{include = "src"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 selenium = "^4.11.2"
-flake8 = "^6.1.0"
 pydantic = "^2.1.1"
 pydantic-settings = "^2.0.3"
 
