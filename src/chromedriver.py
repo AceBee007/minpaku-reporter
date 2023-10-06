@@ -6,6 +6,9 @@ from selenium.webdriver.chrome.options import Options
 class ChromeDriver(object):
     def __init__(self, excutable_path: str):
         options = Options()
+        options.binary_location = (
+            "./Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing"
+        )
         options.add_argument("--headless")
         service = Service(executable_path=excutable_path)
         self.driver = webdriver.Chrome(service=service, options=options)
