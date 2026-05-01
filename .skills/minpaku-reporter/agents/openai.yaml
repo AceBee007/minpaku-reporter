@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minpaku Reporter"
+  short_description: "Report zero-stay Minpaku periods"
+  default_prompt: "Use $minpaku-reporter to propose unreported periods and submit zero-stay Minpaku reports."
